@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Forms</title>
+</head>
+
+<body>
+  <h2>This Is Html Forms</h2>
+    <form action="mailto:lohitapalathirthapu@gmail.com" method="post" enctype="text/plain">
+
+
+    <!-- <input type="text" name="" value=""> -->
+    <!-- name for backend -->
+    <label for="name">Name</label>
+    <div>
+      <input type="text" name="MyName" id="name">
+    </div>
+    <br>
+    <label>Role: </label>
+    <div>
+      <input type="text" name="" value="">
+    </div>
+    <br>
+    <div>
+      Email: <input type="email" name="MyEmail">
+    </div>
+    <br>
+    <div>
+      Password: <input type="password" name="" value="">
+    </div>
+    <br>
+    <div>
+      Date: <input type="date" name="Date">
+    </div>
+    <br>
+    <div>
+      Year: <input type="number" name="Year">
+    </div>
+    <br>
+    <label for="box">Are You Eligible?</label>
+    <div>
+      <input type="checkbox" name="MyEliibility" checked id="box">
+    </div>
+    <br>
+    <div>
+      <!-- name is same thats y we can click only one box -->
+      Gender: Male <input type="radio" name="MyGender">
+      Female <input type="radio" name="MyGender">
+      Other <input type="radio" name="MyGender" checked>
+    </div>
+    <br>
+    <div>
+          <label for="car">Car</label>
+          <select name="myCar" id="car">
+              <option value="ind" selected>Indica</option>
+              <option value="swf">Swift</option>
+          </select>
+      </div>
+      <br>
+    <div>
+      Write about yourself: <br><textarea name="myText" cols="30" rows="10"></textarea>
+    </div>
+    <br>
+    <div>
+      <input type="submit" name="" value="Submit Now">
+      <input type="reset" name="" value="Reset Now">
+    </div>
+  </form>
+
+</body>
+
+</html>
